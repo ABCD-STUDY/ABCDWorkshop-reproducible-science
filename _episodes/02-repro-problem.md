@@ -1,20 +1,20 @@
 ---
-title: "Reproducibility is a PROBLEM"
+title: "Episode 0: Reproducibility is a Problem"
 teaching: 5
 exercises: 0
 questions:
-- "Is reproducibility a problem?"
+- "Can you cite some examples where issures related to reproducibility have been documented to be a problem?"
 objectives:
-- "Show some of the evidence that reproducibility is causing issues in neuroscience."
+- "Show some of the evidence that reproducibility is causing problems in neuroscience."
 keypoints:
 - "Ir-reproducibility costs society dearly"
 
 ---
 
-## Same as before
+## A number of studies have brought the reproducibility of science into question.
 
-Use markdown to write the content.
+### Prinz, et al. Nature Reviews Drug Discovery 10, 712 (September 2011) Bayer Healthcare
 
-Note that if you set up the `teaching` and `exercises` timing in the file
-header, the timing will automatically get updated in the schedule for your
-lesson. Pretty nifty, innit?
+* http://www.nature.com/nrd/journal/v10/n9/full/nrd3439-c1.html
+
+
