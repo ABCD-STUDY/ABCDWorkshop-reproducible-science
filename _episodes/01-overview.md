@@ -19,6 +19,6 @@ keypoints:
 * Episode 1: Many issues affect reproducibility
 * Episode 2: Next generation re-executable publications
 
-### The ReproNim Training Modules
+### Introduce the ReproNim Training Modules
 
 
