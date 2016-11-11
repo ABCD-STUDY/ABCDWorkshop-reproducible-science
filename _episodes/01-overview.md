@@ -4,7 +4,7 @@ teaching: 1
 exercises: 0
 questions:
 - "Why do we care about reproducibility?"
-- "Can we do anything to improve the reproducibility of our work?"
+- "Can we do anything to improve the reproducibility of our neuroimaging work?"
 objectives:
 - "To introduce some of the topics related to reproducibility and introduce what the ReproNim Training Curruiculum will cover"
 keypoints:
