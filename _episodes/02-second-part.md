@@ -1,14 +1,14 @@
 ---
-title: "A second part"
+title: "Reproducibility is a PROBLEM"
 teaching: 5
-exercises: 5
+exercises: 0
 questions:
-- "Can we break up the lesson into multiple parts?"
+- "Is reproducibility a problem?"
 objectives:
-- "See that you can have more than one part for the lesson"
+- "Show some of the evidence that reproducibility is causing issues in neuroscience."
 keypoints:
-- "We can add parts to the lesson, by adding more markdown files"
-- "You get the picture"
+- "Ir-Repeoducibility costs society dearly"
+
 ---
 
 ## Same as before
