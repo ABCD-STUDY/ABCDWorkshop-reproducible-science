@@ -7,7 +7,7 @@ questions:
 objectives:
 - "Show some of the evidence that reproducibility is causing issues in neuroscience."
 keypoints:
-- "Ir-Repeoducibility costs society dearly"
+- "Ir-reproducibility costs society dearly"
 
 ---
 
