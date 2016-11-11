@@ -12,7 +12,7 @@ keypoints:
 
 ---
 
-##The Introduction Module will cover the following topics
+## The Introduction Module will cover the following topics
 
 ### Overview of reproducibility topics
 * Episode 0: Reproducibility is a problem
