@@ -11,10 +11,9 @@ keypoints:
 
 ---
 
-### Reproducibility is a PROBLEM
-
-### Many issues affect reproducibility
-
-### Next generation re-executable publications
+### The Introduction Module will cover the following topics
+* Reproducibility is a PROBLEM
+* Many issues affect reproducibility
+* Next generation re-executable publications
 
 
