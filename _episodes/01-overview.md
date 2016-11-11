@@ -1,5 +1,5 @@
 ---
-title: "An Overview to the Introduction to Reproducible Neuroimaging module"
+title: "An Introduction to ReproNim Training Curriculum"
 teaching: 1
 exercises: 0
 questions:
