@@ -21,6 +21,8 @@ Image from Prinz:
 
 ![an image]({{site.root}}/fig/Prinz.png)
 
+Insert here some words of description related to the Prinz figure...
+
 ### But just what is 'reproducibility' anyway?
 
 * Re-executability (publication-level replication). The exact same data, operated on by the exact same analysis should yield the exact same result. This is currently a problem since publications, in order to maintain readability, do not typically provide complete specification of the analysis method or access to the exact data. 
