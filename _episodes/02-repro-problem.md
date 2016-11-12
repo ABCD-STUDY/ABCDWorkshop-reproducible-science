@@ -17,6 +17,9 @@ keypoints:
 
 * http://www.nature.com/nrd/journal/v10/n9/full/nrd3439-c1.html
 
+Image from Prinz:
+
+![an image]({{site.root}}/fig/Prinz.png)
 
 ### But just what is 'reproducibility' anyway?
 
