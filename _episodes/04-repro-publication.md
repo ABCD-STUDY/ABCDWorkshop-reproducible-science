@@ -24,3 +24,4 @@ as supplementary files.
 
 In other words, given the data, workflow specification and execution environment specification, a third party can generate (and validate) the exact results independently.
 
+![an image]({{site.root}}/fig/futur_paper.png)
