@@ -11,6 +11,16 @@ keypoints:
 
 ---
 
-### The re-executable publication of the future
-* 
+### The re-executable publication of the future includes:
+* Words, as usual, PLUS the following supplemental information:
+
+But also, the:
+
+* Data
+* Workflow Specification
+* Execution Environment Specification
+* Complete Results
+as supplementary files.
+
+In other words, given the data, workflow specification and execution environment specification, a third party can generate (and validate) the exact results independently.
 
