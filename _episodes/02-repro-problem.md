@@ -15,7 +15,7 @@ keypoints:
 
 ### Prinz, et al. Nature Reviews Drug Discovery 10, 712 (September 2011) Bayer Healthcare
 
-* http://www.nature.com/nrd/journal/v10/n9/full/nrd3439-c1.html
+* [link to paper](http://www.nature.com/nrd/journal/v10/n9/full/nrd3439-c1.html)
 
 Image from Prinz:
 
