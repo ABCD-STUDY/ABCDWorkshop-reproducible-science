@@ -18,3 +18,14 @@ keypoints:
 * http://www.nature.com/nrd/journal/v10/n9/full/nrd3439-c1.html
 
 
+### But just what is 'reproducibility' anyway?
+
+* Re-executability (publication-level replication). The exact same data, operated on by the exact same analysis should yield the exact same result. This is currently a problem since publications, in order to maintain readability, do not typically provide complete specification of the analysis method or access to the exact data. 
+
+* Generalizability: We can divide generalizability into three variations:
+
+  * Generalization Variation 1: Exact Same Data + Nominally ‘Similar’ Analyses should yield a ‘Similar’ Result (i.e. FreeSurfer subcortical volumes compared to FSL FIRST)
+   
+  * Generalization Variation 2: Nominally ‘Similar’ Data + Exact Same Analysis should yield a ‘Similar’ Result (i.e. my kids with autism compared to your kids with autism)
+   
+  * Generalized Reproducibility: Nominally ‘Similar’ Data + Nominally ‘Similar’ Analyses should yield a ‘Similar’ Result 
