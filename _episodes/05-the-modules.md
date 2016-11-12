@@ -13,9 +13,13 @@ keypoints:
 ---
 
 ## Module 0 - Reproducibility Basics
+[link](http://www.reproducibleimaging.org/module-reproducible-basics)
 
 ## Module 1 - FAIR Data
+[link](http://www.reproducibleimaging.org/FAIR-Data)
 
 ## Module 2 - Data Processing
+[link](http://repronim.org/module-dataprocessing/)
 
 ## Module 3 - Statistics
+[link](http://repronim.org/module-stats/)
