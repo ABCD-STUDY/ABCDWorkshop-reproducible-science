@@ -34,3 +34,5 @@ Insert here some words of description related to the Prinz figure...
   * Generalization Variation 2: Nominally ‘Similar’ Data + Exact Same Analysis should yield a ‘Similar’ Result (i.e. my kids with autism compared to your kids with autism)
    
   * Generalized Reproducibility: Nominally ‘Similar’ Data + Nominally ‘Similar’ Analyses should yield a ‘Similar’ Result 
+
+Because we do not really characterize data, analysis and results very precisely in the current literature, ‘Similar’ has lots of wiggle room for interpretation (both to enhance similarity and discount differences).
