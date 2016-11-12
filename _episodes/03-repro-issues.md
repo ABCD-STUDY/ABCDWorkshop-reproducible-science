@@ -11,6 +11,15 @@ keypoints:
 
 ---
 
-### The issues
-* issue 1
+### The issues that can affect reproducibility include:
+* Low power
+* Mistakes
+* Ineffective Data Sharing
+* Methodological Variance
+* Sampling
+* P – hacking (P-phishing)
+  * Definition...
+* Publication Bias
+  * Only reporting potentially significant results, and not the rest
+
 
