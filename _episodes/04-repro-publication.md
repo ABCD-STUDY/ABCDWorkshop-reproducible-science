@@ -12,7 +12,7 @@ keypoints:
 ---
 
 ### The re-executable publication of the future includes:
-* Words, as usual, PLUS the following supplemental information:
+* Words, as usual
 
 But also, the:
 
