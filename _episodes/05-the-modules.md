@@ -1,4 +1,3 @@
-
 ---
 title: "The ReproNim Training Curriculum Modules"
 teaching: 5
