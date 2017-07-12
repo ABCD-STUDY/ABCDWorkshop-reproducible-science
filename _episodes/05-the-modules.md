@@ -15,7 +15,7 @@ keypoints:
 [link](http://www.reproducibleimaging.org/module-reproducible-basics)
 
 ## Module 1 - FAIR Data
-[link](http://www.reproducibleimaging.org/FAIR-Data)
+[link](http://www.reproducibleimaging.org/module-FAIR-data)
 
 ## Module 2 - Data Processing
 [link](http://repronim.org/module-dataprocessing/)
