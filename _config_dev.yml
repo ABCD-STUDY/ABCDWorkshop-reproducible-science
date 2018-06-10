@@ -6,4 +6,5 @@
 #    jekyll serve --config _config.yml,_config_dev.yml
 #------------------------------------------------------------
 
-root: http://localhost:4000
+#root: http://localhost:4000
+root: http://abcd-workshop.ucsd.edu

@@ -3,20 +3,20 @@
 #------------------------------------------------------------
 
 # What kind of thing is this ("workshop" or "lesson")?
-kind: "lesson"
+kind: "workshop"
 
 # Overall title for pages.
-title: "ReproNim Introduction to ReproNim Training Program"
+title: "ABCD Baseline Data Workshop"
 
 # Repository URL (without trailing slash).
-repo: https://github.com/ReproNim/module-intro
+repo: https://github.com/ABCD-STUDY/ABCDWorkshop-reproducible-science
 
 # Root URL below username.github.io domain, with leading slash but no trailing slash.
 # For example, for 'https://neurohackweek.github.io/lesson-example', use '/lesson-example'.
-root: "/module-intro"
+root: "/ABCDWorkshop/module-repronim"
 
 # Contact email address.
-email: info@repronim.org
+email: hbartsch@ucsd.edu
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -32,11 +32,17 @@ swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
 example_site: "https://swcarpentry.github.com/lesson-example"
-rn_site: "https://repronim.github.io"
+rn_site: "https://abcdstudy.org"
 #rn_site: "https://repronim.org"
 rn_github: "https://github.com/repronim"
+map_actri: "https://medschool.ucsd.edu/som/medicine/research/centers/sleep-research/contact/Pages/ACTRI-Directions.aspx"
+abcstudy: "https://abcdstudy.org"
+deap: "https://abcd-deap.ucsd.edu"
+nda: "https://data-archive.nimh.nih.gov/abcd"
+nda_data_use: "https://ndar.nih.gov/ndarpublicweb/Documents/NDAR+Data+Access+Request+DUC+FINAL.pdf"
+R: "https://www.r-project.org/"
 
-# Start time in minutes (540 is 09:00 am)
+# Start time in minutes (780 is 1:00 pm - 60*13)
 start_time: 540
 
 # Specify that things in the episodes collection should be output.

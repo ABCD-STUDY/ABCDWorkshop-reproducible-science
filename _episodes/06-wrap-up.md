@@ -1,15 +1,15 @@
 ---
-title: "Wrap-Up"
-teaching: 15
+title: "Lunch break"
+teaching: 40
 exercises: 0
 questions:
-- "What have we learned?"
+- "Pick a sandwich, talk to everyone"
 objectives:
-- "Recap what you've learned"
+- "Refluel for the afternoon"
 keypoints:
-- "A summary of everything so far"
+- "Talk to the speakers if you have feedback"
 ---
 
-## Markdown again
+## Lunch
 
-Write what you would like to say in the summary.
+Hope you find something you like.
