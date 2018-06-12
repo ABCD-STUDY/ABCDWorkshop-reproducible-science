@@ -1,6 +1,6 @@
 ---
 title: "Geolocation Data"
-teaching: 45
+teaching: 40
 exercises: 0
 questions:
 - "Introduction into the ABCD geolocation data sharing model"

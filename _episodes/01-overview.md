@@ -18,3 +18,4 @@ keypoints:
 
 You already found the important resource, this workshop page on http://abcd-workshop.ucsd.edu. There is an additional computational resource available on this server. The address to this resource is very similar, just replace http with *https* (add the 's').
 
+Access to the computational resource will be used in some of the talks for hands-on exercises.

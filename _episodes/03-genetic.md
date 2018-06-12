@@ -1,6 +1,6 @@
 ---
 title: "Genetic Data"
-teaching: 40
+teaching: 30
 exercises: 0
 questions:
 - "What genetic data exists in ABCD and how can it be accessed?"
