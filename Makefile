@@ -22,6 +22,7 @@ serve : lesson-rmd
 ## site           : build files but do not run a server.
 site : lesson-rmd
 	${JEKYLL} build --config _config.yml,_config_dev.yml
+	rsync -av _site/ /var/www/html/
 
 ## figures        : re-generate inclusion displaying all figures.
 figures :

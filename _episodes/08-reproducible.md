@@ -12,12 +12,12 @@ keypoints:
 - "Use established tools to share analysis streams"
 ---
 
-> ## You can skip this lessen if you can answer these questions: &#8680;
+> ## You can skip this lesson if you can answer these questions: &#8680;
 >
 >  - What is the preferred shebang for portability in bash?
 >  - How do I commit to the master branch on the command line?
+>  - How do I create a github repository fork, implement a change suggest a merge?
 >  - Name your three favorite text editors that work on Windows/MacOS/Linux
->  - Why should I fork?
 {: .challenge}
 
 # Module 0: Reproducible Science
@@ -37,9 +37,10 @@ abcd01@localhost's password:
 ~~~
 You should see a shell prompt that allows you to enter further commands.
 
+## Introduction
 
 
-## Scripting documents workflows
+## Scripting workflows
 
 
 

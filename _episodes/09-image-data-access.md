@@ -12,5 +12,6 @@ keypoints:
 
 ## Fast-Track data
 
+The Fast-Track data is available from NDA as S3 buckets with the submission numbers 14921, 13124, and 14895. As new data is uploaded to NDA these number might change in the future.
 
 ## MiniProc data
