@@ -3,22 +3,15 @@ title: "Imaging Data"
 teaching: 50
 exercises: 0
 questions:
-- "How is the ABCD imaging data organized?"
 - "Everything about the Multi-Modal Processing Pipeline"
-- "Shared imaging data (Fast-Track, MiniProc)"
 objectives:
-- "Allow participants to understand the different data sharing channels for Fast-Track, MiniProc. Show how the fully processed data resource will look like."
+- "Allow participants to understand the processing steps used to compute the MiniProc and spreadsheet data."
 keypoints:
-- "Understanding the data processing pipeline used to analyze the data allows researchers to navigate the shared resources better."
+- "Understanding the data processing pipeline used to analyze the data allows researchers to navigate the shared resource and prevent duplications in processing steps."
 
 ---
 
 ## MMPS - The Multi-Modal Processing Stream
 
-## Compute cluster setup for ABCD
+The image processing pipeline used by the DAIC to calculate the shared image derived variables (tabulated data and minimally processed data).
 
-## File system organization
-
-## Image data sharing Fast-Track
-
-## Image data sharing MiniProc

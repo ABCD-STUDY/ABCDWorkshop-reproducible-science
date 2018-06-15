@@ -41,6 +41,8 @@ deap: "https://abcd-deap.ucsd.edu"
 nda: "https://data-archive.nimh.nih.gov/abcd"
 nda_data_use: "https://ndar.nih.gov/ndarpublicweb/Documents/NDAR+Data+Access+Request+DUC+FINAL.pdf"
 R: "https://www.r-project.org/"
+zoom: "https://uchealth.zoom.us/j/658200571"
+JQ: "https://stedolan.github.io/jq/"
 
 # Start time in minutes (780 is 1:00 pm - 60*13)
 start_time: 540
