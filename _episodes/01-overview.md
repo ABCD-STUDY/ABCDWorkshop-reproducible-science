@@ -12,6 +12,12 @@ keypoints:
 
 ---
 
+Breakfast menu (8:30am):
+
+- Assorted fresh baked breakfast pastries, blueberry cobbler muffins, Yoplait Greek yogurt (fat free)
+- Fresh squeezed orange juice
+- Coffee
+
 ## The Introduction Module will cover the following topics
 
 ### Local resources

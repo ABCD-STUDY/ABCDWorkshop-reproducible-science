@@ -1,5 +1,6 @@
 ---
 title: "Reproducible Science and Hypothesis Testing"
+author: "Hauke Bartsch"
 teaching: 30
 exercises: 0
 questions:
@@ -22,9 +23,9 @@ keypoints:
 
 # Module 0: Reproducible Science
 
-## Access to the workshop shell environment
+## Access to the command shell
 
-You may access the https://abcd-workshop.ucsd.edu. Hit enter twice for host and port, and enter one of the workshop user names (abcd01, abcd02, ... abcd20):
+For the duration of the workshop we are providing an interactive shell on a website: https://abcd-workshop.ucsd.edu. Select the SSH icon in the center of the page, hit enter twice to accept the default values for host and port, and enter one of the workshop user names (abcd01, abcd02, ... abcd20):
 ~~~
 [Press Shift-F1 for help]
 
@@ -161,6 +162,11 @@ some text
 abcd03@abcd-workshop:~/workshop/bin$
 ~~~
 Now the script correctly echo's "some text". Open the script again and change the text, add some more text or use `banner` instead of echo.
+
+### Text editors you should know how to get out of
+
+The default text editor on most unix based systems is called `vi`. This editor is used as the default editor by the Unix system if a manual change to a text file is required. In order to quit the vi editor again you should remember the following sequence of keys: `ESC :q!`.
+
 
 ## Test data
 

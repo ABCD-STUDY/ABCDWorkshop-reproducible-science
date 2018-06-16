@@ -13,7 +13,7 @@ keypoints:
 ---
 
 ### Types of genetic data collected
-* Self report (peas in a pot)
+* Self report (peas in a pod)
 * Saliva/blood derived 96 SNP panel
 * Smoke-screen array data
 * Future: Using blood to do whole genome sequencing

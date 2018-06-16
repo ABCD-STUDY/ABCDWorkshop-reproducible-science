@@ -10,8 +10,9 @@ objectives:
 - "To provide an introduction into the set of variables suggested as a framework for ABCD data analysis."
 keypoints:
 - We want the user to be familiar with variables suggested for baseline and the processing capabilities of DEAP.
-
 ---
+
+During the workshop you may access the internal [DEAP]({{site.deap}}) using the user name `workshop` (password: `workshop`). Access to the program is provided under the [NDA access agreement]({{site.nda_data_use}}).
 
 ## Module 0 - Baseline data analysis
 
@@ -43,35 +44,54 @@ Information about DEAP project can be found under the [RRID: SCR_016158]({{https
 
 ### Variables of interest to everyone
 
-- Participant ID
-- Family
-- Site
-- Age
-- Sex/Gender
-- Scanner
-- ...
+Some core variables are used on DEAP:
+
+- Participant ID (src_subject_id)
+- Family (rel_family_id, rel_group_id, rel_relationship)
+- Site (abcd_site)
+- Age (interview_age)
+- Sex (sex, female, demo_sex_v2)
+- Scanner (deviceserialnumber)
+- Marital status (married, demo_prnt_marital_v2)
+- SES (household.income, high.educ)
+- Race/Ethnicity (race.ethnicity)
+- Scanner identification (dti_manufacturer, dti_manufacturer_modelname, Fast-Track's DeviceSerialNumber)
 
 ### Pre-registration workflow
 
-- Two stage approach
+- Two stage approach supported by DEAP
   - 1) formulate hypothesis
-  - file the hypothesis
-  - 2) run analysis
+  - [File your hypothesis on OSF (example).]
+  - 2) execute your analysis
 - What DEAP tools are allowed in the pre-registration phase?
+  - identification of variables of interest
+  - marginal distributions for variables of interest
+  - explore variable transformations (log/censoring)
+- What DEAP tools are not allowed in the pre-registration phase?
+  - scatter plots between variables in the model
+  - access to individual data points with participant identifiers
+  - running a hypothesis
 
-### How to find your variables of interest?
+### How to find variables of interest?
 
-- Search in the Ontology viewer
-- Show distributions and factor levels
+- Search in the Ontology viewer (by domain, by search terms)
+- Show distributions and factor levels for the ABCD core demographic variables.
 
-### How to work with outliers?
+### How to (not) work with outliers?
 
 Distributions should fit to the model used - check for Gaussianity!
 
-- Subsetting
+- Subsetting (selects participants)
 - Censoring
-- Expert mode to winsorize
+  - Find the variable that contains the values for the mean diffusivity of all fibers and select that variable as the dependent variable
+  - Look at the distribution for this variable. What can we do to improve the model? 
+- Expert mode
 
+### How to compare different models with each other?
 
+In order to find out what the best set of covariates is for a given model use the displayed values for the Akaiken Information Criterion. Enable the *Tutorial mode* in the Multi-level Model application by clicking on the menu header *Normal*. Read the section about model comparison. Use the standard model to explore different combinations of covariates - write down the AIC for each model.
 
-[ see if we can use http://swcarpentry.github.io/shell-novice/ in another tutorial ]
+### Advanced applications
+
+Try out the multi-dimensional embedding application. Open the application from the DEAP home page and create an embedding for the 25 FreeSurfer variables.
+

@@ -1,5 +1,6 @@
 ---
 title: "Image data access in ABCD"
+author: "Hauke Bartsch"
 teaching: 30
 exercises: 0
 questions:
@@ -213,7 +214,7 @@ You notice that for the diffusion series in the `dwi` directories additional `bv
 
 ### JSON files
 
-The JavaScript Object Notation (JSON) files are frequently used file format in ABCD. They are machine readable text files, which are compact and easier to read than XML files. Our primary tools to work with them is the command line tool `jq` [JQ]({{site.JQ}}). If we just want to list the content of a single JSON file we can:
+The JavaScript Object Notation (JSON) files are frequently used file format in ABCD. They are machine readable text files, which are compact and easier to read than XML files. Our primary tools to work with them is the command line tool `jq` ([JQ]({{site.JQ}})). If we just want to list the content of a single JSON file we can change to the directory that contains the file (`cd`) and use `jq "." <filename>` to display the content:
 ~~~
 abcd03@abcd-workshop:~$ cd ~/workshop/mydata/sub-NDARINVZ694ZZUM/ses-baselineYear1Arm1/anat
 abcd03@abcd-workshop:~/workshop/mydata/sub-NDARINVZ694ZZUM/ses-baselineYear1Arm1/anat$ jq "." ABCD-T2_run-20180328190543.json
@@ -265,7 +266,7 @@ abcd03@abcd-workshop:~/workshop/mydata/sub-NDARINVZ694ZZUM/ses-baselineYear1Arm1
   "siemensUUID": "Prisma_epi_moco_navigator_ABCD_tse_vfl.prot"
 }
 ~~~
-The content of this file has been created on the FIONA (Flash-based input/output network appliance) workstations at the site using the DICOM meta data. FIONA's ClassifyType for example detected that this ABCD-T2 compatible image series is from a Siemens scanner.
+The content of this file has been created on the FIONA (Flash-based input/output network appliance) workstations at the data collection site using the DICOM meta data. FIONA's ClassifyType for example detected that this ABCD-T2 compatible image series is from a Siemens scanner.
 
 Using our previous loop we can now display for example the series description for all unpacked image series.
 
@@ -345,8 +346,49 @@ GE, original, ABCD-T1
 GE, original, ABCD-T2
 ~~~
 
-Can you now run the workshop03.sh script and remove the duplicates?
+Can you run the workshop03.sh script again and remove the duplicates?
 
 ## MiniProc data
 
 The minimally processed data also fits into the Fast-Track directory structure. Instead of the DICOM files we share volume files in the Nifti file format (BIDS). Both Fast-Track and MiniProc files can be unpacked in the same directory structure.
+
+## Running MMPS using docker
+
+Docker is available as a service for the abcd user account available for the workshop. Start by listing all the images that you have access to:
+~~~
+abcd03@abcd-workshop:~$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              latest              113a43faa138        10 days ago         81.2MB
+~~~
+This shows that docker has an image called ubuntu. We can run this image simply by calling it with `docker run` using an interactive terminal (-it):
+~~~
+abcd03@abcd-workshop:~$ docker run -it ubuntu date
+Sat Jun 16 06:51:13 UTC 2018
+~~~
+In this example we have started the `date` command inside the docker container. It ran, produced the current date and the docker container closed again. This behavior makes docker container behave like programs. They are very fast to start.
+
+Actually the docker contain left a trace on our system that is not visible in using the `docker image` command. It did create an object which is visible using
+~~~
+abcd03@abcd-workshop:~$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                     PORTS               NAMES
+7828d0a38bfb        ubuntu              "date"              2 minutes ago       Exited (0) 2 minutes ago                       clever_banach
+~~~
+
+These objects stay after the program finished running and can use up disk space. Especially if we are running many jobs during batch processing these objects can slow down our system and fill up the drive. We can automatically clean up these containers by adding the command line flag `--rm`:
+~~~
+abcd03@abcd-workshop:~$ docker run -it --rm ubuntu date
+Sat Jun 16 06:58:08 UTC 2018
+~~~
+In this case the container will be removed after the command is finished.
+
+Running larger programs in a docker container like MMPS require that the docker container has access to the file system outside the container. Without this access all data that is created while the docker container is running would disappear again after the docker container is closed.
+
+A simple way to keep the work done in a docker container is to use a second shell to `commit` a currently running docker container. A committed container becomes a new images that can be started again at a later point - with the data from the moment the `commit` command was run.
+
+We can test this behavior if we run a bash shell inside our container.
+~~~
+abcd03@abcd-workshop:~$ docker run -it --rm ubuntu /bin/bash
+root@a5f43effee5f:/#
+~~~
+As you can see starting `/bin/bash` as the program inside the container presents us with a new prompt. Anything we do inside this container will disappear once we enter `exit`.
+
