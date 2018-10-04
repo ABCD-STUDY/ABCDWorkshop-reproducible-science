@@ -41,9 +41,15 @@ deap: "https://abcd-deap.ucsd.edu"
 nda: "https://data-archive.nimh.nih.gov/abcd"
 nda_data_use: "https://ndar.nih.gov/ndarpublicweb/Documents/NDAR+Data+Access+Request+DUC+FINAL.pdf"
 R: "https://www.r-project.org/"
-zoom: "https://uchealth.zoom.us/j/658200571"
+zoom: "https://uchealth.zoom.us/j/286321564"
 JQ: "https://stedolan.github.io/jq/"
-nda_abcd_dd: "https://ndar.nih.gov/data_dictionary.html?source=ABCD&submission=ALL"
+nda_abcd_dd: "https://ndar.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B1.0&submission=ALL"
+release10: "https://ndar.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B1.0&submission=ALL"
+release11: "https://ndar.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B1.1&submission=ALL"
+abcdsource: "https://github.com/ABCD-STUDY/"
+workshop: "http://abcd-workshop.ucsd.edu"
+terminal: "https://abcd-workshop.ucsd.edu"
+deanna: "http://abcd-workshop.ucsd.edu/ABCD_081518_Deanna_Barch_workshop.pptx"
 
 # Start time in minutes (780 is 1:00 pm - 60*13)
 start_time: 540
